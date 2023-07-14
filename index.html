@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="./style.css" rel="stylesheet" type="text/css">
+		<script src="./js.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1 class="custom-color custom-header custom-font">Sea the Ocean</h1>
+			<div style="display: inline-flex; flex-direction: column">
+				<img src id="displayImage" style="border-radius: 8px"/>
+				<button class="custom-color custom-inputs" onclick="getImage()">New Image</button>
+				<span class="subtitle" style="align-self: flex-end">...provided by Pexels</span>
+			</div>
+			<div style="display: inline-flex; flex-direction: column">
+				<span class="custom-font custom-color" style="font-size: 24px">Send me to a friend!</span>
+				<input type="email" id="email" placeholder="user@domain.com" class="custom-inputs" />
+				<button class="custom-inputs custom-color" onclick="sendEmail()">Send</button>
+			</div>
+		</div>
+	</body>
+</html>

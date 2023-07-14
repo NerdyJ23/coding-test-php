@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap'); /* Google Fonts DM Sans */
+
+.custom-color {
+	color: #0369A1 !important;
+}
+.custom-header {
+	font-size: 54px !important;
+}
+.custom-font {
+	font-family: 'DM Sans' !important;
+}
+.subtitle {
+	font-size: 14px;
+	color: #0369A180;
+}
+
+.custom-inputs {
+	font-size: 16px;
+	font-family: 'DM Sans' !important;
+	margin: 12px;
+	padding: 4px;
+	border-radius: 4px;
+	background-color: white;
+	box-shadow: inset 0 0 10px #082F4966;
+}
+body {
+	background-color: #F0F9FF;
+}
